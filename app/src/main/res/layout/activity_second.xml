@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:text="Hello! My name is Karina, I'm 20 years old. I am passionate about programming and am in the process of learning this fascinating field. I am diligently working to expand my knowledge and skills in information technology, striving to become a qualified programmer.
+
+In addition to programming, I have several hobbies that I consider my passions. Firstly, it's singing. Music has always been a source of inspiration for me, and I enjoy singing various songs both in private and at musical events.
+
+Furthermore, I love drawing. It's not only a way for me to express my thoughts and feelings but also an opportunity to immerse myself in the world of creativity and imagination.
+
+Sport also plays an important role in my life. I actively engage in physical exercises because I believe that a healthy body is the key to a healthy mind. I prefer various types of activities such as running, yoga, or swimming.
+
+Finally, reading books is another one of my favorite activities. I am fascinated by various genres of literature, from classics to modern bestsellers. Each book opens up new worlds and ideas to me, making reading an engaging and enlightening experience.
+
+Overall, I strive for comprehensive development, and my hobbies help me find a balance between studying, creativity, and a healthy lifestyle."
+        />
+
+    </ScrollView>
+</LinearLayout>
